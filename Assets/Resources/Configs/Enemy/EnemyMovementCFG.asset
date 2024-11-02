@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: EnemyMovementCFG
   m_EditorClassIdentifier: 
   Speed: 4
+  IdlingTimer: 3
