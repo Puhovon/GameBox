@@ -3,10 +3,13 @@ using UnityEngine;
 public class InputManager : MonoBehaviour
 {
     private InputSystem_Actions _action;
+    
 
     private void Awake()
     {
         _action = new InputSystem_Actions();
+
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void OnEnable()
